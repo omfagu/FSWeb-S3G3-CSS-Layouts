@@ -1,1 +1,97 @@
 /* CSS stillerinizi buraya girin */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+  }
+  
+ .container h1 {
+    margin: 0;
+    padding-left: 6rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    margin-left: 10px;
+    border: 0.1rem solid #333;
+    padding-right: 2rem ;
+    padding-left: 2rem ;
+    
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .container-proje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    position: relative;
+    max-width: 100%;
+  }
+  .image-container-prj {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-proje h1{
+    font-size: 1.5rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ .container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    font-size: 3em;
+    text-align: center;
+    color: white;
+  }
+  footer {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgrey;
+
+  }
+  @media (max-width: 767px) {
+    img {
+      max-width: 80%;
+    }
+  }
+  
